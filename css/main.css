@@ -12,6 +12,13 @@
   padding: 0 5%;
 }
 
+.nav {
+  font-size: 24px;
+  color: #3e57fe;
+  line-height: 32px;
+  display: inline;
+}
+
 h1 {
   font-size: 40px;
   color: #f5a623;
