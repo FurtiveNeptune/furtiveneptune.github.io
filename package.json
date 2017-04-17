@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "3.4.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "description": "A simple portfolio website.",
   "repository": {
     "type": "git",
     "url": "git://github.com/react-boilerplate/react-boilerplate.git"
@@ -10,7 +10,7 @@
     "npm": ">=3",
     "node": ">=5"
   },
-  "author": "Max Stoiber",
+  "author": "Sean O'Dell",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
