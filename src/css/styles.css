@@ -1,10 +1,4 @@
-/*
-
-Landing Zero theme - A free landing page theme from BootstrapZero
-http://www.bootstrapzero.com
-
-*/
-
+/*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
@@ -109,6 +103,11 @@ footer {
 
 .no-padding {
     padding: 0;
+}
+
+.role {
+  margin-left: 3px;
+  font-size: 12px;
 }
 
 .navbar-default {
@@ -233,7 +232,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,11 +262,11 @@ header .header-content .inner p {
 
 #video-background {
   position: absolute;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
+  width: auto;
   height: auto;
   z-index: 1;
 }
@@ -284,9 +283,10 @@ footer {
     .icon-lg {
         font-size: 80px;
     }
-    
+
     header {
         min-height: 100%;
+        background: url('http://i63.tinypic.com/347k5lx.jpg');
     }
 
     header .header-content {
@@ -314,12 +314,18 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
-    
+
     section {
         min-height: 600px;
         padding: 100px 0;
     }
 
+}
+
+#biopic {
+  padding: 10px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .form-control {
